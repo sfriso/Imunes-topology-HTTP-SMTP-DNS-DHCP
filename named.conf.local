@@ -1,0 +1,11 @@
+zone "progetto.com" {
+	type master;
+	file "/etc/bind/db.progetto.com";
+	
+};
+
+zone "0.0.100.in-addr.arpa" {
+	type master;
+	file "/etc/bind/0.0.100.in-addr.arpa";
+	
+};

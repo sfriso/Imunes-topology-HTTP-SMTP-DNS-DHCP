@@ -1,0 +1,12 @@
+configure terminal
+interface eth0
+ip address 100.0.0.254/24 
+exit
+interface eth1
+ip address 101.0.0.5/24
+router ospf
+network 100.0.0.0/24 area 0
+network 101.0.0.0/24 area 0
+exit
+exit
+exit

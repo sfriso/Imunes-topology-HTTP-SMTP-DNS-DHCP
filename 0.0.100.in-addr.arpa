@@ -1,0 +1,8 @@
+$ORIGIN 0.0.100.in-addr.arpa.
+$TTL 60000
+@ IN		SOA	ns.progetto.com.	admin.progetto.com. (1 28800 14400 36000000 0)
+@ IN		NS	ns.progetto.com.
+1		IN	PTR	ns.progetto.com.
+
+3			IN	PTR	SMTP.progetto.com.
+4			IN	PTR	HTTP.progetto.com.
